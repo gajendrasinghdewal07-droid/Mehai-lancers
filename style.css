@@ -1,0 +1,93 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+body{
+background:white;
+color:black;
+line-height:1.6;
+}
+
+/* SECTION SPACING */
+
+section{
+padding:60px 8%;
+text-align:center;
+}
+
+/* LOGO */
+
+.logo{
+width:140px;
+display:block;
+margin:0 auto 25px auto;
+}
+
+/* HEADINGS */
+
+h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+h2{
+font-size:30px;
+margin-bottom:15px;
+}
+
+p{
+margin-bottom:12px;
+color:#444;
+}
+
+/* HERO */
+
+.hero{
+background:#f4f0ff;
+padding:80px 8%;
+}
+
+/* SERVICES */
+
+.service-grid{
+display:flex;
+gap:25px;
+flex-wrap:wrap;
+margin-top:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:14px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+flex:1;
+min-width:260px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+/* PORTFOLIO */
+
+.portfolio-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+/* PORTFOLIO CARD */
+
+.portfolio-grid img,
+.portfolio-grid video{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:12px;
+box-shadow:0
