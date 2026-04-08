@@ -1,0 +1,176 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+body{
+background:white;
+color:black;
+line-height:1.6;
+}
+
+/* SECTION SPACING */
+
+section{
+padding:50px 8%;
+text-align:center;
+}
+
+/* LOGO */
+
+.logo{
+width:140px;
+display:block;
+margin:0 auto 20px auto;
+}
+
+/* HEADINGS */
+
+h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+h2{
+font-size:30px;
+margin-bottom:12px;
+}
+
+p{
+margin-bottom:10px;
+}
+
+/* HERO */
+
+.hero{
+background:#f4f0ff;
+padding:70px 8%;
+}
+
+/* SERVICES */
+
+.service-grid{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 10px 20px rgba(0,0,0,0.08);
+flex:1;
+min-width:250px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+}
+
+/* PORTFOLIO */
+
+.portfolio-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+margin-top:20px;
+}
+
+.portfolio-grid img{
+width:100%;
+border-radius:10px;
+display:block;
+}
+
+/* VIDEO PORTFOLIO */
+
+.portfolio-grid video{
+width:100%;
+border-radius:10px;
+object-fit:cover;
+background:black;
+}
+
+/* TESTIMONIAL */
+
+.testimonial-grid{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.testimonial{
+background:#f4f0ff;
+padding:18px;
+border-radius:10px;
+flex:1;
+}
+
+/* PRICING */
+
+.price-grid{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.price-card{
+background:#f4f0ff;
+padding:20px;
+border-radius:10px;
+flex:1;
+}
+
+/* FORM */
+
+form{
+max-width:500px;
+margin:20px auto 0;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+input,select,textarea{
+padding:10px;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+button{
+background:#B57EDC;
+color:white;
+border:none;
+padding:12px;
+border-radius:6px;
+cursor:pointer;
+margin-top:5px;
+}
+
+/* CONTACT */
+
+.contact{
+background:#f4f0ff;
+padding:50px 8%;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:12px 18px;
+border-radius:50px;
+text-decoration:none;
+font-size:14px;
+}
