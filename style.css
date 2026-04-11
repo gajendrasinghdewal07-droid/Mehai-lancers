@@ -1,0 +1,344 @@
+body{
+margin:0;
+font-family:Poppins;
+background:white;
+color:#222;
+}
+
+/* HERO */
+
+.hero{
+min-height:40vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:#f5f5f5;
+padding:40px 20px;
+}
+
+.logo{
+width:80px;
+margin-bottom:15px;
+}
+
+.trust{
+color:#777;
+font-size:14px;
+margin:10px 0;
+}
+
+.btn{
+background:#ff4d4d;
+color:white;
+padding:10px 20px;
+border-radius:20px;
+text-decoration:none;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#e63b3b;
+}
+
+/* ABOUT */
+
+.about{
+padding:60px 20px;
+}
+
+.about-container{
+display:flex;
+align-items:center;
+gap:40px;
+max-width:1000px;
+margin:auto;
+}
+
+.about img{
+width:300px;
+border-radius:10px;
+}
+
+/* SERVICES */
+
+.services{
+padding:60px 20px;
+text-align:center;
+}
+
+.service-grid{
+display:flex;
+gap:30px;
+justify-content:center;
+}
+
+.card img{
+width:200px;
+border-radius:10px;
+}
+
+/* PRICING */
+
+.pricing{
+padding:60px 20px;
+text-align:center;
+}
+
+.price-grid{
+display:flex;
+gap:30px;
+justify-content:center;
+}
+
+.price-card{
+border:1px solid #ddd;
+padding:30px;
+border-radius:10px;
+width:220px;
+}
+
+.price-card h4{
+font-size:24px;
+color:#ff4d4d;
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+padding:60px 20px;
+text-align:center;
+}
+
+.portfolio-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+max-width:900px;
+margin:auto;
+}
+
+/* HERO IMPROVEMENT */
+
+.hero{
+min-height:40vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:#f5f5f5;
+padding:40px 20px;
+}
+
+.hero-content{
+max-width:600px;
+margin:auto;
+}
+
+.logo{
+width:80px;
+margin-bottom:15px;
+}
+
+.trust{
+color:#777;
+font-size:14px;
+margin:10px 0;
+}
+
+/* ABOUT FIX */
+
+.about{
+padding:60px 20px;
+}
+
+.about-container{
+display:flex;
+align-items:center;
+gap:40px;
+max-width:1000px;
+margin:auto;
+}
+
+.about img{
+width:300px;
+border-radius:10px;
+}
+
+/* SERVICES FIX */
+
+.services{
+padding:60px 20px;
+text-align:center;
+}
+
+.service-grid{
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.card img{
+width:200px;
+border-radius:10px;
+}
+
+/* PRICING FIX */
+
+.pricing{
+padding:60px 20px;
+text-align:center;
+}
+
+.price-grid{
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.price-card{
+border:1px solid #ddd;
+padding:30px;
+border-radius:10px;
+width:220px;
+}
+
+.price-card h4{
+font-size:24px;
+color:#ff4d4d;
+}
+
+/* PORTFOLIO FIX */
+
+.portfolio{
+padding:60px 20px;
+text-align:center;
+}
+
+.portfolio-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+max-width:900px;
+margin:auto;
+}
+
+.portfolio-grid img,
+.portfolio-grid video{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:10px;
+}
+
+/* CTA CENTER ALIGN */
+
+.cta{
+background:#ff4d4d;
+color:white;
+text-align:center;
+padding:60px 20px;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+}
+
+.cta .btn{
+background:white;
+color:#ff4d4d;
+margin-top:15px;
+}
+
+/* TESTIMONIALS */
+
+.testimonials{
+padding:60px 20px;
+background:#f5f5f5;
+text-align:center;
+}
+
+.testimonial-grid{
+display:flex;
+gap:40px;
+justify-content:center;
+margin-bottom:40px;
+flex-wrap:wrap;
+}
+
+.testimonial{
+max-width:250px;
+}
+
+.testimonial img{
+width:60px;
+border-radius:50%;
+margin-bottom:10px;
+}
+
+/* FEEDBACK FORM */
+
+.feedback-form{
+max-width:500px;
+margin:auto;
+text-align:center;
+}
+
+.feedback-form form{
+display:flex;
+flex-direction:column;
+gap:12px;
+margin-top:15px;
+}
+
+.feedback-form input,
+.feedback-form textarea{
+padding:12px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+.feedback-form button{
+padding:12px;
+background:#ff4d4d;
+color:white;
+border:none;
+border-radius:20px;
+cursor:pointer;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media(max-width:768px){
+
+.hero{
+min-height:50vh;
+}
+
+.about-container{
+flex-direction:column;
+text-align:center;
+}
+
+.service-grid{
+flex-direction:column;
+align-items:center;
+}
+
+.price-grid{
+flex-direction:column;
+align-items:center;
+}
+
+.portfolio-grid{
+grid-template-columns:1fr;
+}
+
+.testimonial-grid{
+flex-direction:column;
+align-items:center;
+}
+
+}
