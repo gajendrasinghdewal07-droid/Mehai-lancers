@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mehai Lancers</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+
+<div class="hero-content">
+
+<img src="logo.png" class="logo">
+
+<h1>Professional Video Editing</h1>
+
+<p>We help creators grow with high quality editing & thumbnails</p>
+
+<p class="trust">Trusted by content creators</p>
+
+<a href="#portfolio" class="btn">View Work</a>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+
+<div class="about-container">
+
+<img src="about.jpg">
+
+<div>
+
+<h2>About Us</h2>
+
+<p>
+Mehai Lancers is a creative freelancing agency offering professional
+video editing and thumbnail design for YouTube creators.
+We help improve video quality, engagement and audience retention
+through smooth editing, engaging visuals and high-CTR thumbnails.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+
+<h2>Our Services</h2>
+
+<div class="service-grid">
+
+<div class="card">
+<img src="service1.jpg">
+<h3>Video Editing</h3>
+<p>Professional YouTube video editing</p>
+<p class="price-range">₹299 – ₹1299</p>
+</div>
+
+<div class="card">
+<img src="service2.jpg">
+<h3>Thumbnail Design</h3>
+<p>High CTR YouTube thumbnails</p>
+<p class="price-range">Starting ₹199</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- PORTFOLIO -->
+<section class="portfolio" id="portfolio">
+
+<h2>Our Work</h2>
+
+<div class="portfolio-grid">
+
+<img src="portfolio1.jpg">
+<img src="portfolio2.jpg">
+
+<video controls>
+<source src="portfolio3.mp4" type="video/mp4">
+</video>
+
+<video controls>
+<source src="portfolio4.mp4" type="video/mp4">
+</video>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+<section class="cta">
+
+<h2>Ready to Start Your Project?</h2>
+
+<p>
+Get professional video editing and thumbnails that help
+your content stand out and grow faster.
+</p>
+
+<a href="#order" class="btn">Start Your Project</a>
+
+</section>
+
+<!-- ORDER FORM -->
+<section class="contact" id="order">
+
+<h2>Submit Your Project</h2>
+
+<form action="https://formsubmit.co/mehailancers@gmail.com" method="POST">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Your Email" required>
+
+<select name="service" id="service-select" required>
+
+<option value="">Select Service</option>
+<option value="video">Video Editing</option>
+<option value="thumbnail">Thumbnail Design</option>
+
+</select>
+
+<div id="video-duration" style="display:none;">
+
+<select name="duration">
+
+<option value="">Select Video Length</option>
+<option>Short (0-60 sec)</option>
+<option>Medium (1-5 min)</option>
+<option>Long (5-10 min)</option>
+
+</select>
+
+</div>
+
+<textarea name="details" placeholder="Project Details"></textarea>
+
+<button type="submit">Submit Order</button>
+
+</form>
+
+</section>
+
+<script>
+
+const serviceSelect = document.getElementById("service-select");
+const durationField = document.getElementById("video-duration");
+
+serviceSelect.addEventListener("change", function(){
+
+if(this.value === "video"){
+durationField.style.display = "block";
+}
+else{
+durationField.style.display = "none";
+}
+
+});
+
+</script>
+
+</body>
+</html>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+
+<h2>Clients Feedback</h2>
+
+<div class="testimonial-grid">
+
+<div class="testimonial">
+
+<img src="client1.jpg">
+
+<p>
+"Amazing editing quality and fast delivery.
+The video looked much more engaging."
+</p>
+
+<span>- YouTube Creator</span>
+
+</div>
+
+<div class="testimonial">
+
+<img src="client2.jpg">
+
+<p>
+"Professional thumbnails and clean editing.
+My channel performance improved."
+</p>
+
+<span>- Gaming Creator</span>
+
+</div>
+
+</div>
+
+<!-- CLIENT FEEDBACK FORM -->
+
+<div class="feedback-form">
+
+<h3>Leave Your Feedback</h3>
+
+<form action="https://formsubmit.co/mehailancers@gmail.com" method="POST">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<textarea name="message" placeholder="Write your feedback here..." required></textarea>
+
+<button type="submit">Submit Feedback</button>
+
+</form>
+
+</div>
+
+</section>
